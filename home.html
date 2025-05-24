@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil de Usuario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="icono.png" alt="Logo" class="logo">
+      <button class="logout-button" onclick="logout()">Cerrar sesión</button>
+    </header>
+
+    <main>
+      <h1>Perfil del Usuario</h1>
+      <div class="profile-card">
+        <p><strong>Nombre:</strong> Pepito Perez</p>
+        <p><strong>Fecha de ingreso:</strong> 23 de mayo de 2025</p>
+        <p><strong>Cargo:</strong> Desarrollador Web</p>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    function logout() {
+      alert("Sesión cerrada");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>

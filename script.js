@@ -42,7 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (loginForm) {
         loginForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Inicio de sesión simulado correctamente');
+            alert('Inicio exitoso! Redirigiendo al home...');
+            window.location.href = 'home.html'; 
         });
     }
 });
