@@ -6,34 +6,34 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 20px;
+    padding: 20px
 }
 
 .auth-container {
-    background-color: white;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
     padding: 30px;
     width: 100%;
-    max-width: 450px;
+    max-width: 450px
 }
 
 h1 {
     color: #2c3e50;
     text-align: center;
     margin-bottom: 25px;
-    font-size: 24px;
+    font-size: 24px
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 label {
     display: block;
     margin-bottom: 8px;
     color: #34495e;
-    font-weight: 500;
+    font-weight: 500
 }
 
 input {
@@ -42,17 +42,17 @@ input {
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 16px;
-    transition: all 0.3s;
+    transition: border-color .3s, box-shadow .3s
 }
 
 input:focus {
     border-color: #3498db;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, .2)
 }
 
 .password-container {
-    position: relative;
+    position: relative
 }
 
 .toggle-password {
@@ -61,38 +61,38 @@ input:focus {
     top: 40px;
     cursor: pointer;
     color: #7f8c8d;
-    user-select: none;
+    user-select: none
 }
 
 .btn-primary {
     width: 100%;
     padding: 14px;
     background-color: #3498db;
-    color: white;
-    border: none;
+    color: #fff;
+    border: 0;
     border-radius: 6px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color .3s
 }
 
 .btn-primary:hover {
-    background-color: #2980b9;
+    background-color: #2980b9
 }
 
 .auth-links {
     margin-top: 20px;
-    text-align: center;
+    text-align: center
 }
 
 .auth-links a {
     color: #3498db;
     text-decoration: none;
     font-size: 14px;
-    transition: color 0.3s;
+    transition: color .3s
 }
 
 .auth-links a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
