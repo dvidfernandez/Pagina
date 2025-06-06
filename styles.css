@@ -1,176 +1,96 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f7fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px
-}
-
-.auth-container {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
-    padding: 30px;
-    width: 100%;
-    max-width: 450px
-}
-
-h1 {
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 24px
-}
-
-.form-group {
-    margin-bottom: 20px
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-    color: #34495e;
-    font-weight: 500
-}
-
-input {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 16px;
-    transition: border-color .3s, box-shadow .3s
-}
-
-input:focus {
-    border-color: #3498db;
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(52, 152, 219, .2)
-}
-
-.password-container {
-    position: relative
-}
-
-.toggle-password {
-    position: absolute;
-    right: 15px;
-    top: 40px;
-    cursor: pointer;
-    color: #7f8c8d;
-    user-select: none
-}
-
-.btn-primary {
-    width: 100%;
-    padding: 14px;
-    background-color: #3498db;
-    color: #fff;
-    border: 0;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color .3s
-}
-
-.btn-primary:hover {
-    background-color: #2980b9
-}
-
-.auth-links {
-    margin-top: 20px;
-    text-align: center
-}
-
-.auth-links a {
-    color: #3498db;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color .3s
-}
-
-.auth-links a:hover {
-<<<<<<< HEAD
-    text-decoration: underline
-}
-=======
-    text-decoration: underline;
-}
-
-
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f0f4f8;
+  font-family: Segoe UI, Tahoma, sans-serif;
+  background: #f5f7fa;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px
 }
 
-.container {
-  background: white;
-  border-radius: 15px;
-  padding: 30px 40px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 90%;
-  max-width: 500px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  height: 50px;
-}
-
-.logout-button {
-  background-color: #ff4d4d;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.logout-button:hover {
-  background-color: #e60000;
-}
-
-main h1 {
-  margin-top: 30px;
-  font-size: 2rem;
-  color: #333;
-}
-
-main p {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-
-.profile-card {
-  background: #f9fafb;
-  padding: 20px;
-  margin-top: 25px;
+.auth-container {
+  background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  text-align: left;
-  font-size: 1.1rem;
-  color: #333;
+  box-shadow: 0 4px 12px #0000001a;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px
 }
 
-.profile-card p {
-  margin: 10px 0;
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px
 }
->>>>>>> 4f2b5696e975b948a651a538e4c9e848078f0606
+
+.form-group {
+  margin-bottom: 20px
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #34495e;
+  font-weight: 500
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: .3s
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 3px #3498db33
+}
+
+.password-container {
+  position: relative
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+  cursor: pointer;
+  color: #7f8c8d
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s
+}
+
+.btn-primary:hover {
+  background: #2980b9
+}
+
+.auth-links {
+  margin-top: 20px;
+  text-align: center
+}
+
+.auth-links a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 14px
+}
+
+.auth-links a:hover {
+  text-decoration: underline
+}
