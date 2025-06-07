@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Perfil</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Editar Perfil</h1>
+    </header>
+
+    <main>
+      <form onsubmit="guardarPerfil(event)">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <button type="submit">Guardar</button>
+      </form>
+
+      <button onclick="volver()">Volver</button>
+    </main>
+  </div>
+
+  <script>
+    function guardarPerfil(event) {
+      event.preventDefault();
+      const nombre = document.getElementById('nombre').value;
+      const apellido = document.getElementById('apellido').value;
+      const edad = document.getElementById('edad').value;
+
+      alert(`Perfil guardado:\nNombre: ${nombre}\nApellido: ${apellido}\nEdad: ${edad}`);
+      // Aquí podrías guardar los datos en localStorage, enviarlos a un servidor, etc.
+    }
+
+    function volver() {
+      window.location.href = "home.html";
+    }
+  </script>
+</body>
+</html>
